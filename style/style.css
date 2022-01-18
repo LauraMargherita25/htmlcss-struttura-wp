@@ -16,7 +16,7 @@
 
 .main-conteiner{
     margin-top: 1em;
-    margin-bottom: 1em;
+    background-color: #0086ff;
 }
 
 .main-conteiner::after{
@@ -25,28 +25,38 @@
     clear: both;
 }
 
+.gallery{
+    width: 100%;
+    height: 300px;
+    background-color: #e1d67a;
+    margin-top: 1em;
+}
+
 .main-footer{
     height: 100px;
+    margin-top: 1em;
     background-color: #8601ff;
+}
+
+.conteiner-header{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1em;
+    background-color: #abcfe7;
 }
 
 .column{
     float: left;
-}
-
-.saidbar, .content{
+    margin-bottom: 1em;
+    background-color: #abcfe7;
     height: 300px;
 }
 
 .saidbar{
     width: calc(30% - 1em);
-   background-color: purple;
-   float: left;
 }
 
 .content{
     width: 40%;
     margin: 0 1em;
-    background-color: plum;
-    float: left;
 }
