@@ -6,12 +6,12 @@
 
 .conteiner{
     width: 800px;
-    margin: 10em auto;
+    margin: 1em auto;
 }
 
 .main-header{
     height: 200px;
-    background-color: gold;
+    background-color: #e579e6;
 }
 
 .main-conteiner{
@@ -27,7 +27,11 @@
 
 .main-footer{
     height: 100px;
-    background-color: blue;
+    background-color: #8601ff;
+}
+
+.column{
+    float: left;
 }
 
 .saidbar, .content{
@@ -35,14 +39,14 @@
 }
 
 .saidbar{
-    width: 30%;
+    width: calc(30% - 1em);
    background-color: purple;
    float: left;
-   margin-right: 1em;
 }
 
 .content{
-    width: calc(70% - 1em);
+    width: 40%;
+    margin: 0 1em;
     background-color: plum;
     float: left;
 }
