@@ -15,7 +15,8 @@
 }
 
 .main-conteiner{
-    height: 300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .main-conteiner::after{
@@ -29,16 +30,19 @@
     background-color: blue;
 }
 
+.saidbar, .content{
+    height: 300px;
+}
+
 .saidbar{
     width: 30%;
-   height: 100%; 
    background-color: purple;
    float: left;
+   margin-right: 1em;
 }
 
 .content{
-    width: 70%;
-    height: 100%;
+    width: calc(70% - 1em);
     background-color: plum;
     float: left;
 }
