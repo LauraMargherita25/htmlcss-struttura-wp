@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.conteiner{
+    width: 800px;
+    margin: 10em auto;
+}
+
+.main-header{
+    height: 200px;
+    background-color: gold;
+}
+
+.conteiner-main{
+    height: 300px;
+}
+
+.main-footer{
+    height: 100px;
+    background-color: blue;
+}
+
+.saidbar{
+    width: 30%;
+   height: 100%; 
+   background-color: purple;
+   float: left;
+}
+
+.content{
+    width: 70%;
+    height: 100%;
+    background-color: plum;
+    float: left;
+}
