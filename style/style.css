@@ -14,8 +14,14 @@
     background-color: gold;
 }
 
-.conteiner-main{
+.main-conteiner{
     height: 300px;
+}
+
+.main-conteiner::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .main-footer{
