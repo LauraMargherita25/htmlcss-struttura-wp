@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.conteiner{
+.container{
     width: 800px;
     margin: 1em auto;
 }
@@ -24,18 +24,18 @@
 }
 
 /* main section with content */
-.main-conteiner{
+.main-container{
     margin-top: 1em;
     background-color: #0086ff;
 }
 
-.main-conteiner::after{
+.clear-fix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.conteiner-header{
+.container-header{
     width: 100%;
     height: 100px;
     margin-bottom: 1em;
@@ -49,7 +49,7 @@
     height: 300px;
 }
 
-.saidbar{
+.sidebar{
     width: calc(30% - 1em);
 }
 
